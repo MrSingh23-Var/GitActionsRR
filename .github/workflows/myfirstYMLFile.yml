@@ -1,9 +1,8 @@
 name: Run Shell Command
-on:
-  push:
-
-  jobs:
-  runs-on: ubuntu-latest
+on: push
+jobs:
+  Run_Shell_Command:
+    runs-on: ubuntu-latest
     steps:
       - name: Run a one-line script
         run: echo Hello, world!
